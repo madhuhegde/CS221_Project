@@ -11,7 +11,7 @@ It is part of CS221 project
 Python 3.7.1
 Tensorflow 1.13.1 
 Keras 2.2.4
-Pandas, numpy, sklearn
+Pandas, numpy, sklearn, scikitplot, matplotlib
 
 
 ## Dataset:
@@ -22,4 +22,7 @@ glove.840B.300d - https://nlp.stanford.edu/projects/glove/ <br />
 paragram_300_sl999 - https://cogcomp.org/page/resource_view/106 <br />
 wiki-news-300d-1M - https://fasttext.cc/docs/en/english-vectors.html <br />
 Elmo - https://tfhub.dev/google/elmo/2  <br />
+
+## Model
+![alt text](model.png "Model Architecture")
 

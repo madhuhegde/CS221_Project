@@ -35,6 +35,5 @@ Elmo - https://tfhub.dev/google/elmo/2  <br />
 * Glove+Paradigm Embedding + BiLSTM + Capsule Network + Threshold Optimization
 
 ## Final Model
-The final model architecture is given below.
 ![alt text](model.png "Model Architecture")
 

@@ -23,6 +23,18 @@ paragram_300_sl999 - https://cogcomp.org/page/resource_view/106 <br />
 wiki-news-300d-1M - https://fasttext.cc/docs/en/english-vectors.html <br />
 Elmo - https://tfhub.dev/google/elmo/2  <br />
 
-## Model
+
+## Models tried
+* Naive Bayes (Baseline)
+* Stacked BiLSTM + Embedding without aggregation layer
+* Glove Embedding + BiLSTM + MaxPooling + Threshold optimization
+* Paradigm Embedding + BiLSTM + MaxPooling + Threshold optimization
+* Elmo Embedding + MaxPooling + Threshold Optimization
+* Self Embedding + BiLSTM + MaxPooling + Threshold optimization
+* Wiki Embedding + BiLSTM + MaxPooling + Threshold optimization
+* Glove+Paradigm Embedding + BiLSTM + Capsule Network + Threshold Optimization
+
+## Final Model
+The final model architecture is given below.
 ![alt text](model.png "Model Architecture")
 

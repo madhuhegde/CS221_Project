@@ -34,6 +34,12 @@ Elmo - https://tfhub.dev/google/elmo/2  <br />
 * Wiki Embedding + BiLSTM + MaxPooling + Threshold optimization
 * Glove+Paradigm Embedding + BiLSTM + Capsule Network + Threshold Optimization
 
+## How To Execute
+The models were first implemented in notebook and then converted to *.py <br />
+* NB -  python ./quora_baseline.py
+* Glove + LSTM - python ./quora_LSTM_glove.py
+* Capsule Network - python ./quora_LSTM_capsule.py
+
 ## Final Model
 ![alt text](model.png "Model Architecture")
 

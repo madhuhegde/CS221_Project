@@ -8,10 +8,11 @@ It is part of CS221 project
 * F1-score of 0.70
 
 ## Environment:
-Python 3.7.1
-Tensorflow 1.13.1 
-Keras 2.2.4
-Pandas, numpy, sklearn, scikitplot, matplotlib
+Python 3.7.1 <br />
+Tensorflow 1.13.1 <br />
+Keras 2.2.4 <br />
+Pandas, numpy, sklearn, scikitplot, matplotlib <br />
+GPU with atleast 16GB memory  <br />
 
 
 ## Dataset:
@@ -23,6 +24,23 @@ paragram_300_sl999 - https://cogcomp.org/page/resource_view/106 <br />
 wiki-news-300d-1M - https://fasttext.cc/docs/en/english-vectors.html <br />
 Elmo - https://tfhub.dev/google/elmo/2  <br />
 
-## Model
+
+## Models tried
+* Naive Bayes (Baseline)
+* Stacked BiLSTM + Embedding without aggregation layer
+* Glove Embedding + BiLSTM + MaxPooling + Threshold optimization
+* Paradigm Embedding + BiLSTM + MaxPooling + Threshold optimization
+* Elmo Embedding + MaxPooling + Threshold Optimization
+* Self Embedding + BiLSTM + MaxPooling + Threshold optimization
+* Wiki Embedding + BiLSTM + MaxPooling + Threshold optimization
+* Glove+Paradigm Embedding + BiLSTM + Capsule Network + Threshold Optimization
+
+## How To Execute
+The models were first implemented in notebook and then converted to *.py <br />
+* NB -  python ./quora_baseline.py
+* Glove + LSTM - python ./quora_LSTM_glove.py
+* Capsule Network - python ./quora_LSTM_capsule.py
+
+## Final Model
 ![alt text](model.png "Model Architecture")
 

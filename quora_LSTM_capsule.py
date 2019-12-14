@@ -406,7 +406,7 @@ len(train_loss_array)
 
 import matplotlib.pyplot as plt
 x = range(len(history.train_loss))
-get_ipython().run_line_magic('matplotlib', 'inline')
+#get_ipython().run_line_magic('matplotlib', 'inline')
 fig = plt.figure()
 plt.title('Train Loss with Capsule')
 plt.xlabel('Batch Count')
@@ -420,9 +420,9 @@ fig.savefig('capsule_train_loss')
 # In[17]:
 
 
-import matplotlib.pyplot as plt
+
 x = range(len(history.train_acc))
-get_ipython().run_line_magic('matplotlib', 'inline')
+#get_ipython().run_line_magic('matplotlib', 'inline')
 fig = plt.figure()
 plt.title('Train Accc with Capsule')
 plt.xlabel('Batch Count')
@@ -436,9 +436,9 @@ fig.savefig('capsule_train_acc')
 # In[23]:
 
 
-import matplotlib.pyplot as plt
+
 x = [1, 2, 3, 4, 5, 6]
-get_ipython().run_line_magic('matplotlib', 'inline')
+#get_ipython().run_line_magic('matplotlib', 'inline')
 fig = plt.figure()
 plt.title('Val Loss with Capsule')
 plt.xlabel('Epochs')
@@ -453,9 +453,9 @@ fig.savefig('capsule_val_loss')
 # In[24]:
 
 
-import matplotlib.pyplot as plt
+
 x = [1, 2, 3, 4, 5, 6]
-get_ipython().run_line_magic('matplotlib', 'inline')
+#get_ipython().run_line_magic('matplotlib', 'inline')
 fig = plt.figure()
 plt.title('Val Acc with Capsule')
 plt.xlabel('Epochs')

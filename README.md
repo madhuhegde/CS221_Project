@@ -16,7 +16,7 @@ GPU with atleast 16GB memory  <br />
 
 
 ## Dataset:
-The dataset from Kaggle challenge is downloaded and available as train.csv file in the input directory <br />
+The dataset is available at Kaggle at https://https://www.kaggle.com/c/quora-insincere-questions-classification/data <br />. A subset of this data is available as train.csv file in the input directory <br />
 Following Word embeddings are needed. <br />
 GoogleNews-vectors-negative300 - https://code.google.com/archive/p/word2vec/ <br />
 glove.840B.300d - https://nlp.stanford.edu/projects/glove/ <br />

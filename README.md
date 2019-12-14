@@ -48,3 +48,16 @@ The models were first implemented in notebook and then converted to *.py <br />
 ## Final Model
 ![alt text](model.png "Model Architecture")
 
+## Results
+Add tables
+
+## Conclusions
+In this project we built a sequence machine with embedding input and dynamic route policy aggregation for semantic classification of medium length sentences(under 100 words). The model is developed in stages by assessing the improvement in every step. The conclusion from our experiments is summarized below.
+
+*  Tokenization with minimal pre-processing is adequate for representing features in a sentence.
+*  Word embeddings are essential for natural language processing tasks as they reduce the complexity of handling large vocabulary and provide tremendous generalization of words not in the training set. 
+* Ensembling of multiple embeddings improves the performance by better generalizations due to enriched context.  
+* Capsule networks provide better aggregation of LSTM encoders than the pooling layer. Capsule networks improve the classification performance by better understanding of the spatial/temporal relationships between entities and learn these relationships via dynamic routing.
+* If the data set is unbalanced, threshold optimization based on validation set achieves better precision-recall trade-off and improved performance.
+
+

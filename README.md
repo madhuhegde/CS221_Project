@@ -8,10 +8,11 @@ It is part of CS221 project
 * F1-score of 0.70
 
 ## Environment:
-Python 3.7.1
-Tensorflow 1.13.1 
-Keras 2.2.4
-Pandas, numpy, sklearn, scikitplot, matplotlib
+Python 3.7.1 <br />
+Tensorflow 1.13.1 <br />
+Keras 2.2.4 <br />
+Pandas, numpy, sklearn, scikitplot, matplotlib <br />
+GPU with atleast 16GB memory  <br />
 
 
 ## Dataset:

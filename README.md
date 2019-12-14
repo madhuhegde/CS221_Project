@@ -16,7 +16,7 @@ GPU with atleast 16GB memory  <br />
 
 
 ## Dataset:
-The dataset is available at Kaggle at https://www.kaggle.com/c/quora-insincere-questions-classification/data <br />. 
+The dataset is available at Kaggle at https://www.kaggle.com/c/quora-insincere-questions-classification/data.<br />
 A subset of this data is available as train.csv file in the input directory <br />
 Following Word embeddings are needed. <br />
 GoogleNews-vectors-negative300 - https://code.google.com/archive/p/word2vec/ <br />
@@ -40,6 +40,9 @@ Elmo - https://tfhub.dev/google/elmo/2  <br />
 The models were first implemented in notebook and then converted to *.py <br />
 * NB -  python ./quora_baseline.py
 * Glove + LSTM - python ./quora_LSTM_glove.py
+* Elmo  - python ./quora_LSTM_elmo.py
+* Paragram - python ./quora_LSTM_paragram.py
+* Self Train - python ./quora_LSTM_self_train.py
 * Capsule Network - python ./quora_LSTM_capsule.py
 
 ## Final Model

@@ -49,7 +49,19 @@ The models were first implemented in notebook and then converted to *.py <br />
 ![alt text](model.png "Model Architecture")
 
 ## Results
-Add tables
+
+| Model | Dataset F1 Score on Test Set |
+| ------------- | ------------- |
+| Baseline (Naive Bayes) | 0.53 |
+| Initial Model (No Aggregation Layer) | 0.607 |
+| Updated Model (Glove Only) | 0.677 |
+|Updated Model (Paragram Only) | 0.676 |
+|    Updated Model (wiki) | 0.665 |
+|    Updated Model (Elmo) | 0.644 |
+|    Updated Model (Self Trained Emb.) | 0.653 |
+| Final Model (Glove and Paragram, Capsule Aggregation Layer) | 0.70 |
+| Augmented Data (Twitter Data with Final Arch) | 0.755 |
+    
 
 ## Conclusions
 In this project we built a sequence machine with embedding input and dynamic route policy aggregation for semantic classification of medium length sentences(under 100 words). The model is developed in stages by assessing the improvement in every step. The conclusion from our experiments is summarized below.
